@@ -1,6 +1,8 @@
+import About from "./components/About";
 import Banner from "./components/Banner";
 import Comprehensive from "./components/Comprehensive";
 import Navbar from "./components/Navbar";
+import Service from "./components/Service";
 function App() {
   return (
     <>
@@ -9,6 +11,8 @@ function App() {
           <Navbar></Navbar>
           <Banner></Banner>
           <Comprehensive></Comprehensive>
+          <About></About>
+          <Service></Service>
         </div>
       </main>
     </>
