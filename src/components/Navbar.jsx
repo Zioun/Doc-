@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-transparent flex justify-center sticky pt-[20px]">
+    <div className="bg-transparent flex justify-center sticky pt-3 md:pt-[20px] z-10">
       <div className="max-w-[1160px] m-auto w-full">
         <div className="navbar">
           <div className="navbar-start">
@@ -32,16 +32,16 @@ const Navbar = () => {
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
                 <li>
-                  <a>Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li>
-                  <a>Services</a>
+                  <a href="#services">Services</a>
                 </li>
                 <li>
-                  <a>Blog</a>
+                  <a href="#blog">Blog</a>
                 </li>
                 <li>
-                  <a>About Us</a>
+                  <a href="#about">About Us</a>
                 </li>
               </ul>
             </div>
@@ -50,22 +50,22 @@ const Navbar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="flex gap-10 px-1">
               <li>
-                <a>Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a>Services</a>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <a>Blog</a>
+                <a href="#blog">Blog</a>
               </li>
               <li>
-                <a>About Us</a>
+                <a href="#about">About Us</a>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
             <div className="px-5 py-2 md:px-[28px] md:py-[14px] border rounded-2xl flex justify-center items-center gap-2">
-              Appointment{" "}
+              Appointment
               <span className="hidden md:block">
                 <img src="../../public/images/Arrow-1.png" alt="" />
               </span>

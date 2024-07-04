@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#020043]">
+    <div className="bg-[#020043] px-3">
       <footer className="footer max-w-[1160px] m-auto w-full py-10 text-[#CCCCD1]">
         <aside>
           <img src="../../public/images/appointment-logo.png" alt="" />

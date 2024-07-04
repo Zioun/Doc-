@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="max-w-[1160px] m-auto w-full py-32">
+    <div id="about" className="max-w-[1160px] m-auto w-full pt-10 lg:pt-32 px-3">
       <div className="grid grid-cols-10">
-        <div className="col-span-4">
+        <div className="col-span-10 lg:col-span-4">
           <span className="border px-7 py-2 rounded-full text-[16px]">Who we are</span>
           <h2 className="text-[36px] w-[300px] font-bold my-5">We Help To Get Soultions</h2>
           <p className="text-[16px]">
@@ -20,9 +20,9 @@ const About = () => {
             <img src="../../public/images/Arrow-1.png" alt="" />
           </button>
         </div>
-        <div className="col-span-6 relative">
-            <div className="absolute top-0 right-0"><img className="max-w-[568px] h-[415px]" src="../../public/images/about.png" alt="" /></div>
-            <div className="absolute -bottom-5 left-5 px-[30px] py-[47px] rounded-3xl bg-[#343268] max-w-[390px] text-white">
+        <div className="col-span-10 lg:col-span-6 relative mt-10 lg:mt-0">
+            <div className="absolute -z-0 lg:top-0 lg:right-0"><img className="object-cover lg:max-w-[568px] h-[415px] rounded-2xl" src="../../public/images/about.png" alt="" /></div>
+            <div className="absolute z-10 mt-[300px] lg:-bottom-5 lg:left-5 px-[30px] lg:py-[47px] py-5 rounded-3xl bg-[#343268] max-w-[390px] text-white">
                 <h1 className="text-[25px] mb-2">Our mission is simple</h1>
                 <p>To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
             </div>

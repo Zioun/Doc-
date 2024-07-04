@@ -2,13 +2,13 @@ import React from "react";
 
 const Comprehensive = () => {
   return (
-    <div className="max-w-[1160px] m-auto w-full mt-5">
+    <div className="max-w-[1160px] m-auto w-full mt-5 px-3">
       <div>
-        <h1 className="text-[48px] font-bold w-[500px] text-center m-auto">
+        <h1 className="text-[30px] md:text-[48px] font-bold max-w-[500px] text-center m-auto">
           Comprehensive Care for Every Patient
         </h1>
       </div>
-      <div className="grid grid-cols-5 gap-5 -mt-20">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5 lg:-mt-20 mt-5">
         <div className="bg-[#FBFBFB] shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-2xl p-5 w-full">
           <h1 className="text-[40px] font-semibold">90%</h1>
           <p className="max-w-[150px] mb-5">
