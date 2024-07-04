@@ -60,7 +60,7 @@ const Testimonial = () => {
                 </div>
                 <div>
                   <div className="flex gap-2">
-                    <h1>Sarah D</h1>
+                    <h1 className="font-bold">Sarah D,</h1>
                     <h2>IT Professional</h2>
                   </div>
                   <div className="flex gap-2">
@@ -86,8 +86,8 @@ const Testimonial = () => {
                 </div>
                 <div>
                   <div className="flex gap-2">
-                    <h1>Sarah D</h1>
-                    <h2>IT Professional</h2>
+                    <h1 className="font-bold">Michael R,</h1>
+                    <h2>Business Executive</h2>
                   </div>
                   <div className="flex gap-2">
                     <img src="../../public/images/rating.png" alt="" />
@@ -113,8 +113,8 @@ const Testimonial = () => {
                 </div>
                 <div>
                   <div className="flex gap-2">
-                    <h1>Sarah D</h1>
-                    <h2>IT Professional</h2>
+                    <h1 className="font-bold">David S,</h1>
+                    <h2>Lawyer</h2>
                   </div>
                   <div className="flex gap-2">
                     <img src="../../public/images/rating.png" alt="" />
@@ -141,7 +141,7 @@ const Testimonial = () => {
                 </div>
                 <div>
                   <div className="flex gap-2">
-                    <h1>Sarah D</h1>
+                    <h1 className="font-bold">Sarah D</h1>
                     <h2>IT Professional</h2>
                   </div>
                   <div className="flex gap-2">
@@ -169,8 +169,8 @@ const Testimonial = () => {
                 </div>
                 <div>
                   <div className="flex gap-2">
-                    <h1>Sarah D</h1>
-                    <h2>IT Professional</h2>
+                    <h1 className="font-bold">Michael R,</h1>
+                    <h2>Business Executive</h2>
                   </div>
                   <div className="flex gap-2">
                     <img src="../../public/images/rating.png" alt="" />
