@@ -14,13 +14,13 @@ function App() {
         <div>
           <Navbar></Navbar>
           <Banner></Banner>
-          <Comprehensive></Comprehensive>
-          <About></About>
-          <Service></Service>
-          <Testimonial></Testimonial>
-          <Faq></Faq>
-          <Appointment></Appointment>
-          <Footer></Footer>
+          {/* <Comprehensive></Comprehensive> */}
+          {/* <About></About> */}
+          {/* <Service></Service> */}
+          {/* <Testimonial></Testimonial> */}
+          {/* <Faq></Faq> */}
+          {/* <Appointment></Appointment> */}
+          {/* <Footer></Footer> */}
         </div>
       </main>
     </>

@@ -45,7 +45,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <img src="../../public/images/logo.png" alt="" />
+            <img className="w-[100px] md:w-[150px]" src="../../public/images/logo.png" alt="" />
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="flex gap-10 px-1">
@@ -64,9 +64,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <div className="px-[28px] py-[14px] border rounded-2xl flex justify-center items-center gap-2">
+            <div className="px-5 py-2 md:px-[28px] md:py-[14px] border rounded-2xl flex justify-center items-center gap-2">
               Appointment{" "}
-              <span>
+              <span className="hidden md:block">
                 <img src="../../public/images/Arrow-1.png" alt="" />
               </span>
             </div>
